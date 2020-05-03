@@ -1,0 +1,15 @@
+version: "3.1"
+services:
+
+  stormy_apollo:
+    build: . 
+    # ---------------
+    # Comment these two lines out
+    # after the first run, when the 
+    # api keys are all set up.
+    stdin_open: true
+    tty: true
+    # ---------------
+    volumes:
+      - "./bot:/apollo/bot"
+
