@@ -3,8 +3,7 @@ vp/
 
 # bot stuff
 bot/keys/*.json
-apikeys.py
-apikeys.json
+bot/apikeys.json
 
 # pelican stuff
 output/
