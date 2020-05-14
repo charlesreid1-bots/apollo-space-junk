@@ -1,15 +1,14 @@
-rmm/
 vp/
+rmm/
 
 # bot stuff
 bot/keys/*.json
 bot/apikeys.json
+keys/
 
-# pelican stuff
-output/
+# pelican
 cache/
-pelican/output/
-
+output/
 
 
 
