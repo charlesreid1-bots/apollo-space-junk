@@ -1,0 +1,14 @@
+[Unit]
+Description=apollo space junk twitter bot
+
+[Service]
+Restart=always
+User={{ apollo_user }}
+Group=wheel
+ExecStart={{ apollo_path }}/vp/bin/python -u {{ apollo_path }}/bot/ApolloBotFlock.py
+ExecStop=/usr/bin/killall {{ apollo_path }}/vp/bin/python
+
+[Install]
+WantedBy=default.target
+
+
