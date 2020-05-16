@@ -96,7 +96,7 @@ bot/
 ```
 
 
-## Running The Bot Flock
+## Running the Bot Flock
 
 (Note: take care of `apikeys.json` before you begin.)
 
@@ -115,3 +115,45 @@ $ cd bot/
 $ python ApolloBotFlock.py
 ```
 
+## Running the Bot Flock as a Service
+
+This repo contains a `service/` directory that contains
+a template for a `*.service` file, which can be used to
+run the bot as a startup service in Linux.
+
+To create the real service script from the template service
+script, run `apply_templates.py` after setting the following
+environment variables:
+
+* `APOLLO_PATH`
+* `APOLLO_USER`
+
+This will set the path to the apollo space junk repository
+and the user to run the bot as, respectively.
+
+Finally, install the service by copying the `.service` file
+that was created to `/etc/systemd/system/`.
+
+Finally, enable the service (called `apollo`):
+
+```
+$ sudo service apollo enable
+```
+
+Then start it:
+
+```
+$ sudo service apollo start
+```
+
+To stop it:
+
+```
+$ sudo service apollo stop
+```
+
+To disable the startup service:
+
+```
+$ sudo service apollo disable
+```
