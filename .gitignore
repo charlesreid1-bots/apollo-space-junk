@@ -5,6 +5,7 @@ rmm/
 bot/keys/*.json
 bot/apikeys.json
 keys/
+bot/apollo_keys.zip
 
 # pelican
 cache/
