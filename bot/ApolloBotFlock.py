@@ -2,19 +2,24 @@ import rainbowmindmachine as rmm
 import os, glob
 import logging
 
+
 ch = logging.StreamHandler()
 logger = logging.getLogger('')
 logger.setLevel(logging.INFO)
 logger.addHandler(ch)
 
-fh = logging.FileHandler(filename='apollo-space-junk.log')
-fh.setLevel(logging.INFO)
-logger.addHandler(fh)
 
 BASEDIR = os.path.abspath(os.path.dirname(__file__))
 DATADIR = os.path.join(BASEDIR, 'data')
 KEYSDIR = os.path.join(BASEDIR, 'keys')
+LOGNAME = 'apollo-space-junk.log'
+LOGDIR = BASEDIR
 LIVE = False
+
+
+fh = logging.FileHandler(filename=os.path.join(LOGDIR, LOGNAME))
+fh.setLevel(logging.INFO)
+logger.addHandler(fh)
 
 
 def main():
