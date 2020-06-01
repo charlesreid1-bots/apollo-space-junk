@@ -1,0 +1,51 @@
+
+.intro {
+  color: white;
+  width: 100%;
+  padding: 100px 0;
+  background: url( img/flare.jpg ) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.links-section {
+  color: white;
+  width: 100%;
+  padding: 50px 0;
+  background: url( img/buttons.jpg ) no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+
+
+.scuryv-knave-intro {
+    color: #fff;
+}
+a {
+  color: #00aced;
+}
+a:hover,
+a:focus {
+  color: #0084b4;
+}
+.btn-default {
+  border: 1px solid #00aced;
+  color: #00aced;
+  /*background-color: transparent;*/
+  background-color: #000;
+}
+.btn-default:hover,
+.btn-default:focus {
+  border: 1px solid #00aced;
+  outline: none;
+  color: black;
+  background-color: #00aced;
+}
