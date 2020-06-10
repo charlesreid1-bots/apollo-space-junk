@@ -78,9 +78,9 @@ Find the bots on twitter at the [apollo space junk bot flock twitter list](https
 [@apollo12junk](https://twitter.com/apollo12junk) &bull; 
 [@apollo13junk](https://twitter.com/apollo13junk) &bull;
 [@apollo14junk](https://twitter.com/apollo14junk) &bull;
-[@apollo14junk](https://twitter.com/apollo15junk) &bull;
-[@apollo14junk](https://twitter.com/apollo16junk) &bull;
-[@apollo15junk](https://twitter.com/apollo17junk)
+[@apollo15junk](https://twitter.com/apollo15junk) &bull;
+[@apollo16junk](https://twitter.com/apollo16junk) &bull;
+[@apollo17junk](https://twitter.com/apollo17junk)
 
 <br />
 
