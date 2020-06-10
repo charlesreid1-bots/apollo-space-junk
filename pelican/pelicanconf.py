@@ -72,13 +72,15 @@ by the bot flock to generate dialogue.
 
 For more information about bots and bot flocks, see [bots.charlesreid1.com](https://bots.charlesreid1.com).
 
-Find the bots on twitter at the [apollo space junk bot flock twitter list](https://twitter.com/charlesreid1/lists/space-junk-botflock)
+Find the bots on twitter at the [apollo space junk bot flock twitter list](https://twitter.com/i/lists/1267145550496858113)
 
 [@apollo11junk](https://twitter.com/apollo11junk) &bull; 
 [@apollo12junk](https://twitter.com/apollo12junk) &bull; 
 [@apollo13junk](https://twitter.com/apollo13junk) &bull;
 [@apollo14junk](https://twitter.com/apollo14junk) &bull;
-[@apollo15junk](https://twitter.com/apollo15junk)
+[@apollo14junk](https://twitter.com/apollo15junk) &bull;
+[@apollo14junk](https://twitter.com/apollo16junk) &bull;
+[@apollo15junk](https://twitter.com/apollo17junk)
 
 <br />
 
